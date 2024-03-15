@@ -24,7 +24,7 @@ const pizzaPalace = {
   pizzas: ['Supercheese', 'Smoked', 'Four meats'],
   // Change code below this line
   checkPizza(pizzaName) {
-    return pizzas.includes(pizzaName);
+    return this.pizzas.includes(pizzaName);
   },
   order(pizzaName) {
     const isPizzaAvailable = checkPizza(pizzaName);
