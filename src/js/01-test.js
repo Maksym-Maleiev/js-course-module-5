@@ -38,7 +38,7 @@ const pizzaPalace = {
   // Change code above this line
 };
 
-pizzaPalace.order('Smoked');
-pizzaPalace.order('Four meats');
-pizzaPalace.order('Big Mike');
-pizzaPalace.order('Viennese');
+console.log(pizzaPalace.order('Smoked'));
+console.log(pizzaPalace.order('Four meats'));
+console.log(pizzaPalace.order('Big Mike'));
+console.log(pizzaPalace.order('Viennese'));
