@@ -9,6 +9,7 @@ const bookShelf = {
     this.authors.push(authorName);
   },
 };
+
 console.log(bookShelf.getAuthors());
 // ["Bernard Cornwell", "Robert Sheckley"]
 bookShelf.addAuthor('Tanith Lee');
