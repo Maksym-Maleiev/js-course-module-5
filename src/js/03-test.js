@@ -29,3 +29,4 @@ const historyService = {
 
 historyService.getOrdersLog();
 historyService.getEmails();
+historyService.getOrdersByEmail('solomon@topmail.net');
