@@ -12,12 +12,12 @@ const historyService = {
   ],
   // Change code below this line
   getOrdersLog() {
-    return orders
+    return this.orders
       .map(order => `email: ${order.email} dish: ${order.dish}`)
       .join(' - ');
   },
   getEmails() {
-    const emails = orders.map(order => order.email);
+    const emails = this.orders.map(order => order.email);
     const uniqueEmails = new Set(emails);
     return [...uniqueEmails];
   },
