@@ -26,3 +26,5 @@ const historyService = {
   },
   // Change code above this line
 };
+
+historyService.getOrdersLog();
