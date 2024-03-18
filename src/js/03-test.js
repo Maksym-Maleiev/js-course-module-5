@@ -22,7 +22,7 @@ const historyService = {
     return [...uniqueEmails];
   },
   getOrdersByEmail(email) {
-    return orders.filter(order => order.email === email);
+    return this.orders.filter(order => order.email === email);
   },
   // Change code above this line
 };
