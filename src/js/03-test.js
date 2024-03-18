@@ -28,3 +28,4 @@ const historyService = {
 };
 
 historyService.getOrdersLog();
+historyService.getEmails();
