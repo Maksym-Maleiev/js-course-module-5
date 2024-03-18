@@ -27,7 +27,11 @@ const historyService = {
   // Change code above this line
 };
 
+console.log();
 historyService.getOrdersLog();
+console.log();
 historyService.getEmails();
+console.log();
 historyService.getOrdersByEmail('solomon@topmail.net');
+console.log();
 historyService.getOrdersByEmail('artemis@coldmail.net');
