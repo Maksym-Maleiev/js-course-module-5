@@ -28,7 +28,7 @@ console.log(ancestor.surname);
 console.log(parent.hasOwnProperty('surname'));
 console.log(parent.surname);
 console.log(child.hasOwnProperty('surname'));
-console.log();
+console.log(child.surname);
 console.log();
 console.log();
 console.log();
