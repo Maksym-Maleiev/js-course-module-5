@@ -42,4 +42,4 @@ console.log(child.hasOwnProperty('name'));
 console.log(child.hasOwnProperty('age'));
 console.log(child.hasOwnProperty('surname'));
 console.log(child.hasOwnProperty('heritage'));
-console.log();
+console.log(parent.isPrototypeOf(child));
