@@ -35,3 +35,11 @@ const child = Object.create(parent);
 // Change code above this line
 child.name = 'Jason';
 child.age = 27;
+
+console.log(parent.hasOwnProperty('surname'));
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
