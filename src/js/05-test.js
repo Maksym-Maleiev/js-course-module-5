@@ -20,3 +20,18 @@ child.name = 'Jason';
 child.age = 27;
 
 // Change code above this line
+
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
