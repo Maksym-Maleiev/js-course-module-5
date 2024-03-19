@@ -21,7 +21,7 @@ child.age = 27;
 
 // Change code above this line
 
-console.log();
+console.log(ancestor.isPrototypeOf('parent'));
 console.log();
 console.log();
 console.log();
