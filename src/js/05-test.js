@@ -22,7 +22,7 @@ child.age = 27;
 // Change code above this line
 
 console.log(ancestor.isPrototypeOf('parent'));
-console.log();
+console.log(parent.isPrototypeOf('child'));
 console.log();
 console.log();
 console.log();
