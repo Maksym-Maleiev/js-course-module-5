@@ -23,7 +23,7 @@ child.age = 27;
 
 console.log(ancestor.isPrototypeOf('parent'));
 console.log(parent.isPrototypeOf('child'));
-console.log();
+console.log(ancestor.hasOwnProperty('surname'));
 console.log();
 console.log();
 console.log();
