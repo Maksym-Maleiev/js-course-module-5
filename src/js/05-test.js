@@ -10,7 +10,7 @@ const ancestor = {
 };
 // Change code below this line
 
-const parent = {};
+const parent = Object.create(ancestor);
 parent.name = 'Stacey';
 parent.surname = 'Moore';
 parent.age = 54;
