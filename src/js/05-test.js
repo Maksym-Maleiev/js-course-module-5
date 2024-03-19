@@ -31,7 +31,7 @@ console.log(child.hasOwnProperty('surname'));
 console.log(child.surname);
 console.log(ancestor.hasOwnProperty('heritage'));
 console.log(ancestor.heritage);
-console.log();
+console.log(parent.hasOwnProperty('heritage'));
 console.log();
 console.log();
 console.log();
