@@ -39,7 +39,7 @@ child.age = 27;
 console.log(parent.hasOwnProperty('surname'));
 console.log(parent.hasOwnProperty('heritage'));
 console.log(child.hasOwnProperty('name'));
-console.log();
+console.log(child.hasOwnProperty('age'));
 console.log();
 console.log();
 console.log();
