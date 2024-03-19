@@ -30,7 +30,7 @@ const parent = {
 };
 // Change code below this line
 
-const child = {};
+const child = Object.create(parent);
 
 // Change code above this line
 child.name = 'Jason';
