@@ -41,5 +41,5 @@ console.log(parent.hasOwnProperty('heritage'));
 console.log(child.hasOwnProperty('name'));
 console.log(child.hasOwnProperty('age'));
 console.log(child.hasOwnProperty('surname'));
-console.log();
+console.log(child.hasOwnProperty('heritage'));
 console.log();
