@@ -15,7 +15,7 @@ parent.name = 'Stacey';
 parent.surname = 'Moore';
 parent.age = 54;
 
-const child = {};
+const child = Object.create(parent);
 child.name = 'Jason';
 child.age = 27;
 
