@@ -12,3 +12,5 @@ console.log(poly);
 /*
  * Exercise
  */
+
+class Car {}
