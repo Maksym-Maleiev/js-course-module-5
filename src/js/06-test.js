@@ -14,3 +14,5 @@ console.log(poly);
  */
 
 class Car {}
+
+const honda = new Car();
