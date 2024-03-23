@@ -28,3 +28,5 @@ class Car {
   }
   // Change code above this line
 }
+
+const car1 = new Car({ brand: 'Audi', model: 'Q3', price: 36000 });
