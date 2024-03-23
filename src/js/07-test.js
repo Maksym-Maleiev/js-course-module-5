@@ -33,3 +33,6 @@ class Car {
 
 const car1 = new Car('Audi', 'Q3', 36000);
 console.log(car1);
+
+const car2 = new Car('Audi', 'Q3', 36000);
+console.log(car1);
