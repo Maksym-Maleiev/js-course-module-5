@@ -20,3 +20,8 @@ console.log(poly);
 /*
  * Exercise
  */
+
+class Car {
+  // Change code below this line
+  // Change code above this line
+}
