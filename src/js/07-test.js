@@ -35,7 +35,7 @@ const car1 = new Car('Audi', 'Q3', 36000);
 console.log(car1);
 
 const car2 = new Car('BMW', 'X5', 58900);
-console.log(car1);
+console.log(car2);
 
 const car3 = new Car('Nissan', 'Murano', 31700);
-console.log(car1);
+console.log(car3);
