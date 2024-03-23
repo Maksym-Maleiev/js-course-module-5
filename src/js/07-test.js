@@ -30,3 +30,5 @@ class Car {
   }
   // Change code above this line
 }
+
+const car1 = new Car('Audi', 'Q3', 36000);
