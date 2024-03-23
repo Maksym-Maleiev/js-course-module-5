@@ -23,5 +23,6 @@ console.log(poly);
 
 class Car {
   // Change code below this line
+  constructor(brand, model, price) {}
   // Change code above this line
 }
