@@ -36,3 +36,6 @@ console.log(car1);
 
 const car2 = new Car('BMW', 'X5', 58900);
 console.log(car1);
+
+const car3 = new Car('BMW', 'X5', 58900);
+console.log(car1);
