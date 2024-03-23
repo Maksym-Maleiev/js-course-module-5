@@ -34,5 +34,5 @@ class Car {
 const car1 = new Car('Audi', 'Q3', 36000);
 console.log(car1);
 
-const car2 = new Car('Audi', 'Q3', 36000);
+const car2 = new Car('BMW', 'X5', 58900);
 console.log(car1);
