@@ -14,3 +14,7 @@ console.log(mango);
 const poly = new User({ name: 'Poly', email: 'poly@mail.com' });
 console.log(poly);
 // { name: "Poly", email: "poly@mail.com"}
+
+/*
+ * Exercise
+ */
