@@ -6,6 +6,12 @@ class Storage {
   constructor({ items }) {
     this.items = items;
   }
+
+  getItems() {}
+
+  addItem(newItem) {}
+
+  removeItem(itemToRemove) {}
 }
 
 // Change code above this line
