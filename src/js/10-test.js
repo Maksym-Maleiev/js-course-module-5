@@ -3,12 +3,11 @@
  */
 
 class Storage {
-  constructor({ items } = []) {
+  constructor(items = []) {
     this.items = items;
   }
 
   getItems() {
-    console.log(this.items);
     return this.items;
   }
 
@@ -16,7 +15,9 @@ class Storage {
     this.items.push(newItem);
   }
 
-  removeItem(itemToRemove) {}
+  removeItem(itemToRemove) {
+    this.items.splice(itemToRemove);
+  }
 }
 
 // Change code above this line
