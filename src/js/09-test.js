@@ -21,3 +21,7 @@ const max = new User({ name: 'Max', email: 'max@mail.com' });
 console.log(max);
 
 console.log(Object.getPrototypeOf(max));
+
+/*
+ * Exercise
+ */
