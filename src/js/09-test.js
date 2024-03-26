@@ -16,3 +16,6 @@ class User {
     this.email = newEmail;
   }
 }
+
+const max = new User({ name: 'Max', email: 'max@mail.com' });
+console.log(max);
