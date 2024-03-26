@@ -3,7 +3,7 @@
  */
 
 class Storage {
-  constructor({ items }) {
+  constructor({ items } = []) {
     this.items = items;
   }
 
