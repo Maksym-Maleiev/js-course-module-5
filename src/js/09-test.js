@@ -34,6 +34,7 @@ class Car {
   }
   // Change code below this line
   getPrice() {
+    console.log(this.price);
     return this.price;
   }
 
@@ -44,3 +45,7 @@ class Car {
 }
 
 const newCar = new Car({ brand: 'Honda', model: 'Accord', price: 10000 });
+console.log(newCar);
+newCar.getPrice();
+newCar.changePrice(8000);
+console.log(newCar);
