@@ -15,9 +15,7 @@ class Storage {
     this.items.push(newItem);
   }
 
-  removeItem(itemToRemove) {
-    this.items.splice(itemToRemove);
-  }
+  removeItem(itemToRemove) {}
 }
 
 // Change code above this line
