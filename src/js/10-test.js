@@ -3,7 +3,7 @@
  */
 
 class Storage {
-  constructor() {}
+  constructor({ items } = []) {}
 }
 
 // Change code above this line
