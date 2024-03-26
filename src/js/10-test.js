@@ -15,7 +15,11 @@ class Storage {
     this.items.push(newItem);
   }
 
-  removeItem(itemToRemove) {}
+  removeItem(itemToRemove) {
+    const index = this.items.findIndex(el => el === itemToRemove);
+
+    this.items.splice(index, 1);
+  }
 }
 
 // Change code above this line
