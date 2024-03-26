@@ -37,6 +37,8 @@ class Car {
     return this.price;
   }
 
-  changePrice(newPrice) {}
+  changePrice(newPrice) {
+    this.price = newPrice;
+  }
   // Change code above this line
 }
