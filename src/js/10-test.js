@@ -2,6 +2,10 @@
  * Exercise
  */
 
+class Storage {
+  constructor() {}
+}
+
 // Change code above this line
 const storage = new Storage(['Nanitoids', 'Prolonger', 'Antigravitator']);
 
