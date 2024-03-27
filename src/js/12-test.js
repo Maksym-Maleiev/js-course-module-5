@@ -41,7 +41,9 @@ class Car {
     this.price = price;
   }
 
-  getBrand() {}
+  getBrand() {
+    return this.#brand;
+  }
 
   // Change code above this line
 }
