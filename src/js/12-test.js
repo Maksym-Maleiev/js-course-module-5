@@ -45,6 +45,8 @@ class Car {
     return this.#brand;
   }
 
+  changeBrand(newBrand) {}
+
   // Change code above this line
 }
 
