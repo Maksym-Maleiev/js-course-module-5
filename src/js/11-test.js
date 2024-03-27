@@ -16,7 +16,7 @@ class StringBuilder {
   }
 
   padStart(str) {
-    this.value.pop(str);
+    this.value.unshift(str);
   }
 }
 
