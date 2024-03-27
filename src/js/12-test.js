@@ -42,3 +42,7 @@ class Car {
 
   // Change code above this line
 }
+
+new Car({ brand: 'Audi', model: 'Q3', price: 36000 });
+
+new Car({ brand: 'bmw', model: 'X5', price: 58900 });
