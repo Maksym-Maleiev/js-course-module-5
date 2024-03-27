@@ -52,8 +52,8 @@ class Car {
   // Change code above this line
 }
 
-console.log(new Car({ brand: 'Audi', model: 'Q3', price: 36000 }));
+const car1 = new Car({ brand: 'Audi', model: 'Q3', price: 36000 });
 
-new Car({ brand: 'bmw', model: 'X5', price: 58900 });
+const car2 = new Car({ brand: 'bmw', model: 'X5', price: 58900 });
 
 new Car({ brand: 'Nissan', model: 'Murano', price: 31700 });
