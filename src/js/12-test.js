@@ -26,3 +26,7 @@ console.log(mango.getEmail());
 // mango@supermail.com
 console.log(mango.#email);
 // Буде помилка, це приватна властивість
+
+/*
+ * Exercise
+ */
