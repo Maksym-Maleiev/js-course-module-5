@@ -15,7 +15,9 @@ class StringBuilder {
     this.value.push(str);
   }
 
-  padStart() {}
+  padStart(str) {
+    this.value.pop(str);
+  }
 }
 
 // Change code above this line
