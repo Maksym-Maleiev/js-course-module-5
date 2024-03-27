@@ -60,3 +60,5 @@ console.log(car2.getBrand());
 
 const car3 = new Car({ brand: 'Nissan', model: 'Murano', price: 31700 });
 console.log(car3.getBrand());
+car3.changeBrand('Honda');
+console.log(car3.getBrand());
