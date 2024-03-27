@@ -33,9 +33,10 @@ console.log(mango.#email);
 
 class Car {
   // Change code below this line
+  #brand;
 
   constructor({ brand, model, price }) {
-    this.brand = brand;
+    this.#brand = brand;
     this.model = model;
     this.price = price;
   }
