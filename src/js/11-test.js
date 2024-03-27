@@ -11,13 +11,11 @@ class StringBuilder {
     return this.value;
   }
 
-  padEnd(str) {
-    this.value.push(str);
-  }
+  padEnd(str) {}
 
-  padStart(str) {
-    this.value.unshift(str);
-  }
+  padStart(str) {}
+
+  padBoth(str) {}
 }
 
 // Change code above this line
