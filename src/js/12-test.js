@@ -53,7 +53,10 @@ class Car {
 }
 
 const car1 = new Car({ brand: 'Audi', model: 'Q3', price: 36000 });
+console.log(car1.getBrand());
 
 const car2 = new Car({ brand: 'bmw', model: 'X5', price: 58900 });
+console.log(car2.getBrand());
 
 const car3 = new Car({ brand: 'Nissan', model: 'Murano', price: 31700 });
+console.log(car3.getBrand());
