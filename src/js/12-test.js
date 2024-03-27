@@ -1,31 +1,31 @@
 console.log('Приватні властивості');
 
-class User {
-  // Необов'язкове оголошення громадських властивостей
-  name;
-  // Обов'язкове оголошення приватних властивостей
-  #email;
+// class User {
+//   // Необов'язкове оголошення громадських властивостей
+//   name;
+//   // Обов'язкове оголошення приватних властивостей
+//   #email;
 
-  constructor({ name, email }) {
-    this.name = name;
-    this.#email = email;
-  }
+//   constructor({ name, email }) {
+//     this.name = name;
+//     this.#email = email;
+//   }
 
-  getEmail() {
-    return this.#email;
-  }
+//   getEmail() {
+//     return this.#email;
+//   }
 
-  changeEmail(newEmail) {
-    this.#email = newEmail;
-  }
-}
+//   changeEmail(newEmail) {
+//     this.#email = newEmail;
+//   }
+// }
 
-const mango = new User({ name: 'Mango', email: 'mango@mail.com' });
-mango.changeEmail('mango@supermail.com');
-console.log(mango.getEmail());
-// mango@supermail.com
-console.log(mango.#email);
-// Буде помилка, це приватна властивість
+// const mango = new User({ name: 'Mango', email: 'mango@mail.com' });
+// mango.changeEmail('mango@supermail.com');
+// console.log(mango.getEmail());
+// // mango@supermail.com
+// console.log(mango.#email);
+// // Буде помилка, це приватна властивість
 
 /*
  * Exercise
@@ -45,12 +45,14 @@ class Car {
     return this.#brand;
   }
 
-  changeBrand(newBrand) {}
+  changeBrand(newBrand) {
+    this.#brand = newBrand;
+  }
 
   // Change code above this line
 }
 
-new Car({ brand: 'Audi', model: 'Q3', price: 36000 });
+console.log(new Car({ brand: 'Audi', model: 'Q3', price: 36000 }));
 
 new Car({ brand: 'bmw', model: 'X5', price: 58900 });
 
