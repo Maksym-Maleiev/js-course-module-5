@@ -11,7 +11,9 @@ class StringBuilder {
     return this.value;
   }
 
-  padEnd(str) {}
+  padEnd(str) {
+    this.value.push(str);
+  }
 }
 
 // Change code above this line
