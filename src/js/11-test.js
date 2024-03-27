@@ -10,6 +10,8 @@ class StringBuilder {
   getValue() {
     return this.value;
   }
+
+  padEnd(str) {}
 }
 
 // Change code above this line
