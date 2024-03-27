@@ -15,13 +15,13 @@ class StringBuilder {
     this.value = this.value + str;
   }
 
-  padStart(str) {
-    this.value = str + this.value;
-  }
+  // padStart(str) {
+  //   this.value = str + this.value;
+  // }
 
-  padBoth(str) {
-    this.value = str + this.value + str;
-  }
+  // padBoth(str) {
+  //   this.value = str + this.value + str;
+  // }
 }
 
 // Change code above this line
