@@ -30,6 +30,6 @@ const mango = new User({ name: 'Mango', email: 'mango@mail.com' });
 console.log(mango.email);
 // mango@mail.com
 
-mango.email = '';
+mango.email = 'mango@supermail.com';
 console.log(mango.email);
 // mango@supermail.com
