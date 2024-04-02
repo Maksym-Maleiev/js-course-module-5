@@ -5,8 +5,10 @@
 class StringBuilder {
   // Change code below this line
 
+  #value;
+
   constructor(initialValue) {
-    this.value = initialValue;
+    this.#value = initialValue;
   }
 
   getValue() {
