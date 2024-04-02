@@ -46,8 +46,8 @@ class Car {
 
   constructor({ brand, model, price }) {
     this.#brand = brand;
-    this.model = model;
-    this.price = price;
+    this.#model = model;
+    this.#price = price;
   }
 
   get brand() {
@@ -59,19 +59,19 @@ class Car {
   }
 
   get model() {
-    return this.model;
+    return this.#model;
   }
 
   set model(newModel) {
-    this.model = newModel;
+    this.#model = newModel;
   }
 
   get price() {
-    return this.price;
+    return this.#price;
   }
 
   set price(newPrice) {
-    this.price = newPrice;
+    this.#price = newPrice;
   }
   // Change code above this line
 }
