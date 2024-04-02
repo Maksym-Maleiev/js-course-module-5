@@ -48,27 +48,27 @@ class Car {
     this.price = price;
   }
 
-  getBrand() {
+  get brand() {
     return this.#brand;
   }
 
-  changeBrand(newBrand) {
+  set brand(newBrand) {
     this.#brand = newBrand;
   }
 
-  getModel() {
+  get model() {
     return this.model;
   }
 
-  updateModel(newModel) {
+  set model(newModel) {
     this.model = newModel;
   }
 
-  getPrice() {
+  get price() {
     return this.price;
   }
 
-  setPrice(newPrice) {
+  set price(newPrice) {
     this.price = newPrice;
   }
   // Change code above this line
