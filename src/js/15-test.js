@@ -17,6 +17,10 @@ class User {
 
   // Сеттер email
   set email(newEmail) {
+    if (newEmail === '') {
+      console.error('Помилка! Пошта не може бути порожнім рядком!');
+      return;
+    }
     this.#email = newEmail;
   }
 }
@@ -28,6 +32,3 @@ console.log(mango.email);
 mango.email = 'mango@supermail.com';
 console.log(mango.email);
 // mango@supermail.com
-
-
-set email(newEmail) { if(newEmail === "") { console.error("Помилка! Пошта не може бути порожнім рядком!"); return; } this.#email = newEmail; }
