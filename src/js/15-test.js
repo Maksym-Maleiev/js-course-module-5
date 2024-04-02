@@ -21,6 +21,7 @@ class User {
       console.error('Помилка! Пошта не може бути порожнім рядком!');
       return;
     }
+
     this.#email = newEmail;
   }
 }
@@ -29,6 +30,6 @@ const mango = new User({ name: 'Mango', email: 'mango@mail.com' });
 console.log(mango.email);
 // mango@mail.com
 
-mango.email = 'mango@supermail.com';
+mango.email = '';
 console.log(mango.email);
 // mango@supermail.com
