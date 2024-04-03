@@ -2,31 +2,31 @@
  * Наслідування класів
  */
 
-class User {
-  #email;
+// class User {
+//   #email;
 
-  constructor(email) {
-    this.#email = email;
-  }
+//   constructor(email) {
+//     this.#email = email;
+//   }
 
-  get email() {
-    return this.#email;
-  }
+//   get email() {
+//     return this.#email;
+//   }
 
-  set email(newEmail) {
-    this.#email = newEmail;
-  }
-}
+//   set email(newEmail) {
+//     this.#email = newEmail;
+//   }
+// }
 
-class ContentEditor extends User {
-  // Тіло класу ContentEditor
-}
+// class ContentEditor extends User {
+//   // Тіло класу ContentEditor
+// }
 
-const editor = new ContentEditor('mango@mail.com');
-console.log(editor);
-// { email: "mango@mail.com" }
-console.log(editor.email);
-// "mango@mail.com"
+// const editor = new ContentEditor('mango@mail.com');
+// console.log(editor);
+// // { email: "mango@mail.com" }
+// console.log(editor.email);
+// // "mango@mail.com"
 
 /*
  * Exercise
@@ -50,3 +50,6 @@ class User {
 class Admin extends User {
   static AccessLevel = { BASIC: 'basic', SUPERUSER: 'superuser' };
 }
+
+console.log(Admin.AccessLevel.BASIC);
+console.log(Admin.AccessLevel.SUPERUSER);
