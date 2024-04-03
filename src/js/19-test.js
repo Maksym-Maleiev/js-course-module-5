@@ -2,71 +2,79 @@
  * Конструктор дочірнього класу
  */
 
-class User {
-  #email;
+// class User {
+//   #email;
 
-  constructor(email) {
-    this.#email = email;
-  }
+//   constructor(email) {
+//     this.#email = email;
+//   }
 
-  get email() {
-    return this.#email;
-  }
+//   get email() {
+//     return this.#email;
+//   }
 
-  set email(newEmail) {
-    this.#email = newEmail;
-  }
-}
+//   set email(newEmail) {
+//     this.#email = newEmail;
+//   }
+// }
 
-class ContentEditor extends User {
-  constructor({ email, posts }) {
-    // Виклик конструктора батьківського класу User
-    super(email);
-    this.posts = posts;
-  }
-}
+// class ContentEditor extends User {
+//   constructor({ email, posts }) {
+//     // Виклик конструктора батьківського класу User
+//     super(email);
+//     this.posts = posts;
+//   }
+// }
 
-const editor = new ContentEditor({ email: 'mango@mail.com', posts: [] });
-console.log(editor);
-// {email: 'mango@mail.com', posts: []}
-console.log(editor.email);
-// 'mango@mail.com'
+// const editor = new ContentEditor({ email: 'mango@mail.com', posts: [] });
+// console.log(editor);
+// // {email: 'mango@mail.com', posts: []}
+// console.log(editor.email);
+// // 'mango@mail.com'
 
 /*
  * Exercise
  */
 
-// class User {
-//   email;
+class User {
+  email;
 
-//   constructor(email) {
-//     this.email = email;
-//   }
+  constructor(email) {
+    this.email = email;
+  }
 
-//   get email() {
-//     return this.email;
-//   }
+  get email() {
+    return this.email;
+  }
 
-//   set email(newEmail) {
-//     this.email = newEmail;
-//   }
-// }
+  set email(newEmail) {
+    this.email = newEmail;
+  }
+}
 
-// class Admin extends User {
-//   // Change code below this line
+class Admin extends User {
+  // Change code below this line
+  accessLevel;
 
-//   static AccessLevel = {
-//     BASIC: "basic",
-//     SUPERUSER: "superuser",
-//   };
+  constructor({ email, accessLevel }) {
+    super(email);
+    this.accessLevel = accessLevel;
+  }
 
-//   // Change code above this line
-// }
+  static AccessLevel = {
+    BASIC: 'basic',
+    SUPERUSER: 'superuser',
+  };
 
-// const mango = new Admin({
-//   email: "mango@mail.com",
-//   accessLevel: Admin.AccessLevel.SUPERUSER,
-// });
+  // Change code above this line
+}
 
-// console.log(mango.email); // "mango@mail.com"
-// console.log(mango.accessLevel); // "superuser"
+const mango = new Admin({
+  email: 'mango@mail.com',
+  accessLevel: Admin.AccessLevel.SUPERUSER,
+});
+
+console.log(mango.email);
+// "mango@mail.com"
+console.log(mango.accessLevel);
+// "superuser"
