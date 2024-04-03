@@ -33,3 +33,7 @@ console.log(mango.role);
 mango.role = User.Roles.EDITOR;
 console.log(mango.role);
 // "editor"
+
+/*
+ * Exercise
+ */
