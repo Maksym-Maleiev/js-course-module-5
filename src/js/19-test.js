@@ -3,16 +3,18 @@
  */
 
 class User {
+  #email;
+
   constructor(email) {
-    this.email = email;
+    this.#email = email;
   }
 
   get email() {
-    return this.email;
+    return this.#email;
   }
 
   set email(newEmail) {
-    this.email = newEmail;
+    this.#email = newEmail;
   }
 }
 
