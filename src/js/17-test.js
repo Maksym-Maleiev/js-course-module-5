@@ -30,6 +30,14 @@ class Car {
   static #MAX_PRICE = 50000;
   // Change code below this line
 
+  static checkPrice(price) {
+    if (price > Car.#MAX_PRICE) {
+      return 'Error! Price exceeds the maximum';
+    }
+
+    return 'Success! Price is within acceptable limits';
+  }
+
   // Change code above this line
   constructor({ price }) {
     this.price = price;
