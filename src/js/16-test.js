@@ -66,4 +66,4 @@ console.log(audi.price);
 
 audi.price = 51000;
 console.log(audi.price);
-// 49000
+// 51000
