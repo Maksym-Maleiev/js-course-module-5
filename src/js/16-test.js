@@ -53,7 +53,11 @@ class Car {
   }
 
   set price(newPrice) {
-    this.#price = newPrice;
+    if (newPrice < MAX_PRICE) {
+      this.#price = newPrice;
+    }
+
+    this.#price;
   }
   // Change code above this line
 }
@@ -68,4 +72,4 @@ console.log(audi.price);
 
 audi.price = 51000;
 console.log(audi.price);
-// 51000
+// 49000
