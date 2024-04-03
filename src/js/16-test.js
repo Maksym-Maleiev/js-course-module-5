@@ -40,6 +40,8 @@ console.log(mango.role);
 
 class Car {
   // Change code below this line
+  static MAX_PRICE = 50000;
+
   #price;
 
   constructor({ price }) {
